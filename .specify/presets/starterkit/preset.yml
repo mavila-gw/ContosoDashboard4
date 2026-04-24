@@ -1,0 +1,45 @@
+schema_version: "1.0"
+
+preset:
+  id: "starterkit"
+  name: "Starterkit Preset"
+  version: "1.0.0"
+  description: "SDD Feature Spec command and template for Starterkit projects"
+  author: "Your Name"
+  repository: "https://github.com/your-org/spec-kit-preset-starterkit"
+  license: "MIT"
+
+# Requirements for this preset
+requires:
+  speckit_version: ">=0.1.0"
+
+# Templates provided by this preset
+provides:
+  templates:
+    - type: "template"
+      name: "spec-template"
+      file: "templates/spec-template.md"
+      description: "SDD feature specification template (Problem, Goals, Constraints, APIs, Acceptance, Observability)"
+      replaces: "spec-template"
+
+    - type: "command"
+      name: "speckit.specify"
+      file: "commands/speckit.specify.md"
+      description: "Interactive SDD Feature Spec facilitator — guides the user through Steps 1-7 and produces specs/{slug}.spec.md"
+      replaces: "speckit.specify"
+
+    - type: "command"
+      name: "speckit.backlog"
+      file: "commands/speckit.backlog.md"
+      description: "Generate SDD backlog (SVS + stories + REQ-* IDs + Gherkin AC + NFRs) from an approved spec"
+
+    - type: "command"
+      name: "speckit.constitution"
+      file: "commands/speckit.constitution.md"
+      description: "Create or update the project constitution and deploy stack rules to the active AI agent (Cursor / Copilot)"
+      replaces: "speckit.constitution"
+
+tags:
+  - "sdd"
+  - "starterkit"
+  - "spec"

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "presets": {
+    "starterkit": {
+      "version": "1.0.0",
+      "source": "local",
+      "manifest_hash": "sha256:d063582b84deeb073e0aab25411b28d55c320f6e027efe1437d943c1a3560059",
+      "enabled": true,
+      "priority": 10,
+      "registered_commands": {
+        "copilot": [
+          "speckit.specify",
+          "speckit.backlog",
+          "speckit.constitution"
+        ]
+      },
+      "registered_skills": [],
+      "installed_at": "2026-04-24T11:07:22.803163+00:00"
+    }
+  }
+}

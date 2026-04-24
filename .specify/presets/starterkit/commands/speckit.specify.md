@@ -1,10 +1,7 @@
 ---
-description: Capture a Feature Spec following Spec-Driven Design (SDD) — entry point
-  of the development cycle
+description: "Capture a Feature Spec following Spec-Driven Design (SDD) — entry point of the development cycle"
 ---
 
-
-<!-- Source: starterkit -->
 # starterkit-spec
 
 Captures the **Feature Spec** for a new capability following Specs-Driven Design (SDD).
