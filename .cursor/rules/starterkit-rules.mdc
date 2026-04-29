@@ -1,0 +1,23 @@
+---
+description: Starterkit — SDD rules index
+alwaysApply: true
+---
+
+# Starterkit Rules
+
+Active rules for this project:
+
+- @starterkit-angular-angular-patterns
+- @starterkit-blazor-blazor-server
+- @starterkit-common-documentation
+- @starterkit-common-output-config
+- @starterkit-common-sdd-principles
+- @starterkit-common-sdd-workflow
+- @starterkit-common-security
+- @starterkit-common-web-security
+- @starterkit-dotnet-dotnet-aspnetcore
+- @starterkit-python-python-api
+- @starterkit-python-python-backend-patterns
+- @starterkit-python-python-data-access
+- @starterkit-python-python-standards
+- @starterkit-razor-razor-pages

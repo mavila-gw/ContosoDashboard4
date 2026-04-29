@@ -1,0 +1,34 @@
+# Starterkit Extensions
+#
+# Register pre/post hooks for starterkit commands.
+# Each hook entry supports:
+#   command: <command-to-invoke>
+#   description: <human-readable description>
+#   optional: true|false   (false = mandatory, auto-executes; true = suggested)
+#   enabled: true|false    (default: true)
+#   condition: <expression> (optional, evaluated by HookExecutor)
+#
+# Available hook keys:
+#   hooks.before_constitution, hooks.after_constitution
+#   hooks.before_specify,      hooks.after_specify
+#   hooks.before_clarify,      hooks.after_clarify
+#   hooks.before_backlog,      hooks.after_backlog
+#   hooks.before_plan,         hooks.after_plan
+#   hooks.before_council,      hooks.after_council
+#   hooks.before_refine,       hooks.after_refine
+#   hooks.before_technical_analyst, hooks.after_technical_analyst
+#   hooks.before_devils_advocate,   hooks.after_devils_advocate
+#   hooks.before_tasks,        hooks.after_tasks
+#   hooks.before_implement,    hooks.after_implement
+#   hooks.before_analyze,      hooks.after_analyze
+#   hooks.before_checklist,    hooks.after_checklist
+#   hooks.before_review,       hooks.after_review
+#
+# Example:
+# hooks:
+#   after_tasks:
+#     - command: my-extension.validate
+#       description: Validate task structure
+#       optional: true
+#       enabled: true
+hooks: {}
